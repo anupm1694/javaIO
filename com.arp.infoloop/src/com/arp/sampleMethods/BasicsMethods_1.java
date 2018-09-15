@@ -2,7 +2,7 @@ package com.arp.sampleMethods;
 
 import java.io.File;
 
-public class BasicsMethods {
+public class BasicsMethods_1 {
 
 	public static void main(String[] args) {
 
