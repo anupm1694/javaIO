@@ -16,7 +16,7 @@ public class basicsMethods_2 {
 			// creates a new file named as sight.txt
 			file.createNewFile();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 	}
