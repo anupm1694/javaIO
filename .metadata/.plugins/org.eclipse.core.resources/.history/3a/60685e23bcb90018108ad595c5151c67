@@ -1,0 +1,15 @@
+package com.arp.sampleMethods;
+
+import java.io.File;
+
+public class BasicsMethods_5 {
+
+	public static void main(String[] args) {
+
+		File file = new File("E:/examples/data.txt");
+
+		System.out.println(file.toPath());
+
+	}
+
+}

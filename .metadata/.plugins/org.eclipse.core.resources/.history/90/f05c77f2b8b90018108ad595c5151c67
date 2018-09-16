@@ -1,0 +1,16 @@
+package com.arp.sampleMethods;
+
+import java.io.File;
+
+public class BasicsMethods_3 {
+
+	public static void main(String[] args) {
+
+		File file = new File("E:/examples/data.txt");
+
+		// rename a file
+		File file1 = new File("E:/examples/file.txt");
+		System.out.println(file.renameTo(file1));
+	}
+
+}

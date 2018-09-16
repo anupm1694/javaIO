@@ -1,0 +1,24 @@
+package com.arp.sampleMethods;
+
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class BasicsMethods_5 {
+
+	public static void main(String[] args) throws Exception {
+
+		File file = new File("E:/Examples/data.txt");
+
+		Path path = file.toPath();
+
+		System.out.println(path.toAbsolutePath());
+		
+		Path path1 = new File("E:/Examples/sight.txt").toPath();
+		
+		System.out.println(Files.isSameFile(path, path1));
+
+	}
+
+}
+    

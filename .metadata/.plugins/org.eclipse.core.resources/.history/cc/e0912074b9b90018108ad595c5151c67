@@ -1,0 +1,24 @@
+package com.arp.sampleMethods;
+
+import java.io.File;
+
+public class BasicsMethods_3 {
+
+	public static void main(String[] args) {
+
+		File file = new File("E:/examples/data.txt");
+
+		// rename a file:-to rename a file we should pass the File object as a
+		// parameter to rename()
+		File file1 = new File("E:/examples/test.txt");
+		System.out.println(file.renameTo(file1));
+
+		// deleting a file
+		System.out.println(file.delete());
+
+		// deleting a file it exists
+		file1.deleteOnExit();
+
+	}
+
+}

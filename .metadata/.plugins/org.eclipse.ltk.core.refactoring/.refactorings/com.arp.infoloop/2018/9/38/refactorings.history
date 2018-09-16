@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.arp.sampleMethods.BasicMethods_3&apos; to &apos;BasicsMethods_3&apos;&#x0D;&#x0A;- Original project: &apos;com.arp.infoloop&apos;&#x0D;&#x0A;- Original element: &apos;com.arp.sampleMethods.BasicMethods_3&apos;&#x0D;&#x0A;- Renamed element: &apos;com.arp.sampleMethods.BasicsMethods_3&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BasicMethods_3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.arp.sampleMethods{BasicMethods_3.java[BasicMethods_3" matchStrategy="1" name="BasicsMethods_3" qualified="false" references="true" similarDeclarations="false" stamp="1537105083023" textual="false" version="1.0"/>
+</session>
